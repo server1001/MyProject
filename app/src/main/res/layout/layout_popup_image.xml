@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:idv="http://schemas.android.com/apk/res-auto"
+    android:background="#999">
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/popupViewPager"/>
+    <com.komect.test.IndicatorView
+        android:id="@+id/indicatorView"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        idv:indicatorInterval="10dp"
+        android:gravity="center_horizontal"
+        idv:normalDrawable="@drawable/indicator_unselect"
+        idv:selectDrawable="@drawable/indicator_select"
+        />
+
+</RelativeLayout>

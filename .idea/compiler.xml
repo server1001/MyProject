@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="Test.app" target="1.8" />
+      <module name="Test.crash" target="1.8" />
+      <module name="Test.glide" target="1.8" />
+      <module name="Test.hook" target="1.8" />
+      <module name="Test.http" target="1.8" />
+      <module name="Test.lifecycle" target="1.8" />
+      <module name="Test.lrucatch" target="1.8" />
+      <module name="Test.rxjava" target="1.8" />
+      <module name="Test.thread" target="1.8" />
+      <module name="Test.view" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

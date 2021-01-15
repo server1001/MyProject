@@ -1,0 +1,12 @@
+include ':java'
+include ':hook'
+include ':lrucatch'
+include ':crash'
+include ':view'
+include ':thread'
+include ':rxjava'
+include ':lifecycle'
+include ':http'
+include ':glide'
+include ':app'
+rootProject.name = "Test"
